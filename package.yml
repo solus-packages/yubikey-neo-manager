@@ -1,0 +1,31 @@
+name       : yubikey-neo-manager
+version    : 1.4.0
+release    : 1
+source     :
+    - git|https://github.com/Yubico/yubikey-neo-manager.git : yubikey-neo-manager-1.4.0
+license    : BSD-2-Clause
+component  : security
+summary    : Tool for managing your YubiKey NEO configuration.
+description: |
+    Tool for managing your YubiKey NEO configuration.
+builddeps  :
+    - libu2f-host
+    - libykneomgr
+    - pycrypto
+    - python-pyside-tools
+    - python-setuptools
+    - yubikey-personalization
+rundeps    :
+    - libu2f-host
+    - libykneomgr
+    - pycrypto
+    - python-pyside
+    - yubikey-personalization
+setup      : |
+    sed -i 's:, QtWebKit::g' neoman/model/jsapi.py
+    python setup.py qt_resources
+    %python_setup
+install    : |
+    %python_install
+    install -Dm00644 resources/neoman.desktop $installdir/usr/share/applications/neoman.desktop
+    install -Dm00644 resources/yubikey-neo-manager.png $installdir/usr/share/pixmaps/neoman.png

@@ -1,0 +1,122 @@
+<PISI>
+    <Source>
+        <Name>yubikey-neo-manager</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">Tool for managing your YubiKey NEO configuration.</Summary>
+        <Description xml:lang="en">Tool for managing your YubiKey NEO configuration.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>yubikey-neo-manager</Name>
+        <Summary xml:lang="en">Tool for managing your YubiKey NEO configuration.</Summary>
+        <Description xml:lang="en">Tool for managing your YubiKey NEO configuration.
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/__main__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/appletdb.json</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_ccid.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_ccid.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_otp.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_otp.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_u2f.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/device_u2f.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/exc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/exc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/js_api.js</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/messages.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/messages.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/applet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/applet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/jsapi.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/jsapi.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/modes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/modes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/neo.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/model/neo.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/networker.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/networker.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/qt_resources.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/qt_resources.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/storage.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/storage.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/u2fh.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/u2fh.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/applet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/applet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/main.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/nav.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/nav.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/neo.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/neo.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/tabs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/tabs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/welcome.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/view/welcome.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yk4_utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yk4_utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/ykneomgr.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/ykneomgr.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/ykpers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/ykpers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/ctypes/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/ctypes/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/ctypes/libloader.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/ctypes/libloader.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/classes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/classes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/settings.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/settings.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/worker.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/qt/worker.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/exe.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/exe.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/pyinstaller_spec.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/pyinstaller_spec.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/neoman/yubicommon/setup/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yubikey_neo_manager-1.4.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="data">/usr/share/applications/neoman.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/neoman.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-21</Date>
+            <Version>1.4.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
